@@ -1,17 +1,131 @@
+/* home page */
+.div-container1{
+    background-color: rgb(255, 141, 1);
+    height: 500px;
+    width: 600px;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    border-radius: 25px;
+    margin-top: 6%;
+}
+.head{
+    margin-left: 35%;
+    margin-right: 35%;
+    font-size: 70px;
+    color: white;
+}
+.head2{
+    margin-left: 40%;
+    margin-right: 40%;
+    font-size: 30px;
+    width: 100% ;
+    color: rgb(65, 64, 64);
+}
+.head3{
+    margin-left: 42%;
+    margin-right: 42%;
+    font-size: 20px;
+    width: 100% ;
+    color: rgb(65, 64, 64);
+}
+.head4{
+    margin-left: 45%;
+    margin-right: 45%;
+    font-size: 20px;
+    width: 100%;
+    color: rgb(65, 64, 64);
+}
+.start{
+    background-color: #000000; /* Green */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 41%;
+    margin-right: 41%;
+    width: 20%;
+    border-radius: 25px
+}
+
+
+
+
+
+
+
+
+/* game page */
+.div-container2{
+    background-color: rgb(255, 141, 1);
+    height: 500px;
+    width: 600px;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    border-radius: 25px;
+    margin-top: 6%;
+}
 td{
     border: 2px solid #333;
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
     text-align: center;
     vertical-align: middle;
-    font-size: 70 px;
+    font-size: 90px;
     cursor:pointer;
-
 }
 table{
     border-collapse: collapse;
     position:absolute;
-    left:45%;
+    left: 50%;
     margin-left : -155px;
-    top: 90px;
+    top: 700px;
+    color: brown;
+    margin-top: 0%;
+}
+#reset{
+background-color: #000000; /* Green */
+border: none;
+color: white;
+padding: 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+margin-left: 41%;
+margin-right: 41%;
+width: 20%;
+border-radius: 25px;
+margin-top: 55%;
+}
+#msg{
+color: cornsilk;
+margin-top: -60%;
+margin-left: 35%;
+margin-right: 35%;
+font-size: xx-large;
+width: 40%;
+background-color: black;
+opacity: 80%;
+text-align: justify;
+  text-justify: inter-word;
+}
+#score1{
+color: cornsilk;
+margin-top: 35%;
+background-color: black;
+}
+#score2{
+    color: cornsilk;
+    margin-left: 80% ;
+    margin-top: -4%;
+    background-color: black;
 }

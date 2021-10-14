@@ -8,7 +8,22 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-<table>
+    <div class='div-container1'>
+        <h1 class='head'>welcome!</h1>
+        <h2 class='head2'>Are you ready</h2>
+        <h2 class='head3'>for another game</h2>
+        <h1 class='head4'>champions</h1>
+        <button class='start' onclick="showDiv2()">let's go!!</button>
+    </div>
+    
+    <div class='div-container2'>
+        
+        <button id="reset">replay</button>
+<div id='msg'>player 1 its your turn</div>
+<div id="score1" >score player 1 =<span id='sp1'></span></div>
+<div id="score2">score player 2 = <span id='sp2'></span></div>
+
+<table class="tab">
     <tr>
         <td class='T' id='2'></td>
         <td class='T' id='7'></td>
@@ -25,15 +40,8 @@
         <td class='T' id='8'></td>
     </tr>
 </table>
-<div class="result"></div>
-<button onclick="//function mte3na elli bech taamel reset">replay</button>
-<!-- <button onclick="mark1()">player1</button> -->
-<!-- <button onclick="mark2()">player2</button> -->
-<div id='msg'>player 1 its your turn</div>
-<div >score player 1 <span id='sp1'></span></div>
-<div >score player 2 <span id='sp2'></span></div>
 
-
+</div>
     <script
   src="https://code.jquery.com/jquery-3.6.0.js"
   integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
