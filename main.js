@@ -26,13 +26,14 @@ $('td').click(function(){
         var targetmovesarray=getPlayerMovesArray(player)
     if(findSumCombOf3Eq15(targetmovesarray)){
         
-        $('#msg').html("player " + player + " won")
-        
+        $('#msg').html(getPlayerName(player) + " won")
         if(player===1){
             p1Score++
+            $('#p1').html(getPlayerName(player))
             $('#sp1').html(p1Score)
            }
            else{p2Score++
+            $('#p2').html(getPlayerName(player))
             $('#sp2').html(p2Score)
         }
         $("td").empty()
@@ -50,7 +51,7 @@ $('td').click(function(){
 
     
     player =switchPlayer(player);
-    $('#msg').html('player '+player+' its your turn')
+    $('#msg').html(getPlayerName(player)+' its your turn')
     }
     else{$('#msg').html('already crossed')}
     
@@ -106,8 +107,17 @@ function getPlayerMovesArray(player){
     if(player===1){return p1Moves}
     else return p2Moves
 }
+function getPlayerName(player){
+    if(player===1){
+        return $('#name1').val()
+    }
+
+    return $('#name2').val()
+}
 
 function showDiv2(){
+    $('#p1').html($('#name1').val())
+$('#p2').html($('#name2').val())
  $('.div-container1').hide()
   $('.div-container2').show()
 }

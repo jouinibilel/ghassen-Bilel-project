@@ -2,7 +2,6 @@
 .div-container1{
     background-color: rgb(255, 141, 1);
     height: 450px;
-    
     margin: auto;
     width: 60%;
     padding: 10px;
@@ -56,21 +55,13 @@
     margin-right: 41%;
     width: 20%;
     border-radius: 25px;
-    margin-top:6%;
+    margin-top:2%;
 }
-
-
-
-
-
-
-
-
 /* game page */
 .div-container2{
     background-color: rgb(255, 141, 1);
-    height: 600px;
-    width: 600px;
+    height: 500px;
+    width: 500px;
     margin: auto;
     width: 60%;
     padding: 10px;
@@ -93,8 +84,11 @@ table{
     margin-left : -155px;
     top: 700px;
     color: brown;
-    margin-top: -35%;
+    margin-top: -40%;
+    border-style: hidden;
 }
+
+
 #reset{
 background-color: #000000; /* Green */
 border: none;
@@ -110,11 +104,11 @@ margin-left: 41%;
 margin-right: 41%;
 width: 20%;
 border-radius: 25px;
-margin-top: 60%;
+margin-top: 48%;
 }
 #msg{
 color: cornsilk;
-margin-top: -70%;
+margin-top: -60%;
 margin-left: 20%;
 margin-right: 0%;
 font-size: xx-large;
@@ -155,4 +149,18 @@ img{
     width: 50px;
     cursor:pointer;
 }
+.name1{
+    color: gainsboro;
+}
+.name2{
+    color: gainsboro;
+}
+.names{
+    margin-left: 40%;
+  }
+  #msg-name{
+      margin-left:40% ;
+  }
+  #
+  
 
