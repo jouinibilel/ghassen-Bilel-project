@@ -111,3 +111,4 @@ function showDiv2(){
  $('.div-container1').hide()
   $('.div-container2').show()
 }
+$('.div-container2').hide()
