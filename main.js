@@ -64,12 +64,14 @@ function identifyState(td){
     }
     else{ return false}
 }
+// playersSymbol
 function identifyPlayerSymbol(player){
     if(player===1){
         return"x"
     }
     else {return "o"}
 }
+// pushing the players moves
 function pushPlayerMoves(player,id){
  if (player===1){
     p1Moves.push(Number(id))
@@ -78,6 +80,7 @@ function pushPlayerMoves(player,id){
 
 
 }
+// switvhinG ROLES
 function switchPlayer(player){
     if(player===1){
         
@@ -88,6 +91,7 @@ function switchPlayer(player){
         return 1
     }
 }
+// Winning Combo
 function findSumCombOf3Eq15(arr){
 
     for (var i=0;i<arr.length;i++){
@@ -102,11 +106,12 @@ function findSumCombOf3Eq15(arr){
 
     return false
 }
-
+// 
 function getPlayerMovesArray(player){
     if(player===1){return p1Moves}
     else return p2Moves
 }
+// returning the player moves
 function getPlayerName(player){
     if(player===1){
         return $('#name1').val()
@@ -114,7 +119,7 @@ function getPlayerName(player){
 
     return $('#name2').val()
 }
-
+// show and hide functions
 function showDiv2(){
     $('#p1').html($('#name1').val())
 $('#p2').html($('#name2').val())
