@@ -1,8 +1,8 @@
 /* home page */
 .div-container1{
     background-color: rgb(255, 141, 1);
-    height: 500px;
-    width: 600px;
+    height: 450px;
+    
     margin: auto;
     width: 60%;
     padding: 10px;
@@ -14,7 +14,8 @@
     margin-right: 35%;
     font-size: 70px;
     color: white;
--moz-background-inline-policy: continuous;
+    margin-top: auto;
+
 }
 .head2{
     margin-left: 40%;
@@ -22,23 +23,26 @@
     font-size: 30px;
     width: 100% ;
     color: rgb(65, 64, 64);
+    margin-top: 2%;
 }
 .head3{
-    margin-left: 42%;
+    margin-left: 39%;
     margin-right: 42%;
-    font-size: 20px;
+    font-size: 30px;
     width: 100% ;
     color: rgb(65, 64, 64);
+    margin-top: auto;
 }
 .head4{
-    margin-left: 45%;
+    margin-left: 40%;
     margin-right: 45%;
-    font-size: 20px;
+    font-size: 30px;
     width: 100%;
     color: rgb(65, 64, 64);
+    margin-top: auto;
 }
 .start{
-    background-color: #000000; /* Green */
+    background-color: #000000;
     border: none;
     color: white;
     padding: 20px;
@@ -51,7 +55,8 @@
     margin-left: 41%;
     margin-right: 41%;
     width: 20%;
-    border-radius: 25px
+    border-radius: 25px;
+    margin-top:6%;
 }
 
 
@@ -70,7 +75,7 @@
     width: 60%;
     padding: 10px;
     border-radius: 25px;
-    margin-top: 4%;
+    margin-top: 3%;
 }
 td{
     border: 2px solid #333;
@@ -88,7 +93,7 @@ table{
     margin-left : -155px;
     top: 700px;
     color: brown;
-    margin-top: -33%;
+    margin-top: -35%;
 }
 #reset{
 background-color: #000000; /* Green */
@@ -109,7 +114,7 @@ margin-top: 60%;
 }
 #msg{
 color: cornsilk;
-margin-top: -60%;
+margin-top: -70%;
 margin-left: 20%;
 margin-right: 0%;
 font-size: xx-large;
@@ -119,27 +124,25 @@ text-align: justify;
 width: fit-content 150%;
 text-align: center;
 border-radius: 25px;
-
+position: relative;
 }
 #score1{
-color: cornsilk;
+color: rgb(0, 0, 0);
 margin-top: 15%;
 position: fixed;
 }
 #score2{
-    color: cornsilk;
+    color: rgb(0, 0, 0);
     margin-left: 72% ;
     margin-top: 25%;
-    background-color: black;
 }
 .score{
-    background-color: black;
-
 text-align: center;
 text-align: center;
 border-radius: 25px;
 height: 100px;
 width: 250px;
+
 }
 #sp1{
   font-size: 50px;  
@@ -147,3 +150,9 @@ width: 250px;
 #sp2{
     font-size: 50px;
 }
+img{
+    height: 50px;
+    width: 50px;
+    cursor:pointer;
+}
+

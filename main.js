@@ -112,3 +112,7 @@ function showDiv2(){
   $('.div-container2').show()
 }
 $('.div-container2').hide()
+function returnHome(){
+    $('.div-container2').hide()
+  $('.div-container1').show()
+}
